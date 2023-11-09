@@ -1,0 +1,49 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Chethanbhagat",
+    "body": "Book1",
+    "userId": "1"
+}
+HTTP/1.1 201 Created
+Date: Thu, 09 Nov 2023 09:59:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1699523996
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"4f-iWHEaX0JNInsoajUiEN2bjLF5UY"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BcjPMQir9f94xmsasV6GmQ4yj4Hnkiu3W%2BtyUEfSnfwVfPcTujmmTt2rI7Xr4T06i7rO9t7YheIz0g%2BZ%2F7WbrtYEd8tLwyi0HzUofMxXC6PA9PGsqB2nr64Weu%2FGFxu9Tg0G4eTtuJtfsHSjrKhW"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 823534239a90367b-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "title": "Chethanbhagat",
+    "body": "Book1",
+    "userId": "1",
+    "id": 101
+}
