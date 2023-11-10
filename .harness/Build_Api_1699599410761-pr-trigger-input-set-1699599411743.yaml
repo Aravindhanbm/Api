@@ -1,5 +1,6 @@
 inputSet:
   name: Build_Api_1699599410761-pr-trigger-input-set
+  tags: {}
   identifier: Build_Api_1699599410761prtriggerinputset
   orgIdentifier: default
   projectIdentifier: default_project
@@ -9,6 +10,6 @@ inputSet:
       ci:
         codebase:
           build:
-            type: PR
+            type: branch
             spec:
-              number: <+trigger.prNumber>
+              branch: master
