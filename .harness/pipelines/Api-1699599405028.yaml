@@ -29,9 +29,9 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
-            arch: Amd64
-            os: Linux
+            os: Windows
+            arch: Arm64
           runtime:
+            type: Docker
             spec: {}
-            type: Cloud
         type: CI
