@@ -32,6 +32,6 @@ pipeline:
             os: Windows
             arch: Arm64
           runtime:
-            type: Docker
+            type: Cloud
             spec: {}
         type: CI
