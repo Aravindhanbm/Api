@@ -35,3 +35,5 @@ pipeline:
             type: Docker
             spec: {}
         type: CI
+        when:
+          pipelineStatus: Success
